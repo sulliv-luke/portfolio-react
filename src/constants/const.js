@@ -1,4 +1,5 @@
 import chessboard from '../images/board.png'
+import crypto from '../images/CryptoTrackerScreenshot.PNG'
 export const Bio = {
     name: "Luke Sullivan",
     roles: [
@@ -246,5 +247,23 @@ export const Bio = {
       category: "game",
       github: "https://github.com/sweng-group-30/Microsoft-Hololens-Chess-Game",
       demo: "https://drive.google.com/drive/folders/16n-wWaNbmhT6qdBT3jElhCgCHRrvWak_?usp=sharing",
+    },
+    {
+      id: 1,
+      title: "Crypto Tracker Web App",
+      date: "August 2023",
+      description: "A web application that tracks the prices and market caps of various cryptocurrency, as well as displaying historical data on the prices from up to a year. Created using React, Material UI and the CoinGecko API",
+      image: crypto,
+      tags: [
+        "Node",
+        "Git",
+        "React",
+        "Material UI",
+        "Netlify",
+        "CoinGecko API",
+      ],
+      category: "web app",
+      github: "https://github.com/sulliv-luke/crypto-tracker/",
+      website: "https://crypto-tracker-ls.netlify.app/",
     },
   ];

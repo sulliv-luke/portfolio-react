@@ -26,6 +26,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="game" onClick={() => setToggle('game')}>Games</ToggleButton>
           }
+          <Divider/>
+          {toggle === 'web app' ?
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Web Apps</ToggleButton>
+            :
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Web Apps</ToggleButton>
+          }
         </ToggleButtonGroup>
 
         <CardContainer>
@@ -34,7 +40,7 @@ const Projects = ({openModal,setOpenModal}) => {
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
