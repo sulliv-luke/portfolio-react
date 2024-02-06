@@ -5,7 +5,7 @@ import trinity from '../images/trinity.jpg'
 import microsoft from '../images/microsoft.png'
 import git from '../images/git.png'
 import unity from '../images/unity3d.png'
-import postm from '../images/postman.svg'
+import postma from '../images/postman.svg'
 export const Bio = {
     name: "Luke Sullivan",
     roles: [
@@ -187,7 +187,7 @@ export const Bio = {
         },
         {
           name: "Postman",
-          image: postm
+          image: postma
         },
       ],
     },
