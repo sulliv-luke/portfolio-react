@@ -1,5 +1,11 @@
 import chessboard from '../images/board.png'
 import crypto from '../images/CryptoTrackerScreenshot.PNG'
+import weather from '../images/WeatherAppLanding.PNG'
+import trinity from '../images/trinity.jpg'
+import microsoft from '../images/microsoft.png'
+import git from '../images/git.png'
+import unity from '../images/unity3d.png'
+import postm from '../images/postman.svg'
 export const Bio = {
     name: "Luke Sullivan",
     roles: [
@@ -153,8 +159,7 @@ export const Bio = {
       skills: [
         {
           name: "Git",
-          image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          image: git        
         },
         {
           name: "GitHub",
@@ -163,7 +168,7 @@ export const Bio = {
         },
         {
           name: "Unity3D",
-          image: "https://assets.stickpng.com/images/62e131df7fe3599fdd46ecb3.png",
+          image: unity
         },
         {
           name: "Docker",
@@ -182,8 +187,7 @@ export const Bio = {
         },
         {
           name: "Postman",
-          image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          image: postm
         },
       ],
     },
@@ -192,7 +196,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_100_100/0/1618231291419?e=1700697600&v=beta&t=J_EgWI7qAmyaUVxgHevglV-byVx1z1pFayq_vrP5udg",
+      img: microsoft,
       role: "Software Engineer (Project)",
       company: "Microsoft",
       date: "Jan 2023 - May 2023",
@@ -219,7 +223,7 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/D4E0BAQEmt0dyvlcp9w/company-logo_200_200/0/1692366282118?e=1700697600&v=beta&t=g7Azo6U_MHYYEtQNgkN5EAd79ebbUe0MCK82pm6p0r0",
+      img: trinity,     
       school: "Trinity College Dublin",
       date: "Sep 2021 - May 2025",
       grade: "Honors",
@@ -265,5 +269,24 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/sulliv-luke/crypto-tracker/",
       website: "https://crypto-tracker-ls.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "Weather Application",
+      date: "December 2023",
+      description: "A web application that utilises the Open Weather Map API to allow the user to search for weather conditions by city",
+      image: weather,
+      tags: [
+        "Node",
+        "Git",
+        "React",
+        "Open Weather Map API",
+        "Spring Boot",
+        "Java",
+        "MongoDB"
+      ],
+      category: "web app",
+      github: "https://github.com/sulliv-luke/WeatherApp",
+      website: "https://group17-weatherapp.netlify.app/",
     },
   ];
