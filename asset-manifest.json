@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.a1ef0baa.css",
-    "main.js": "/portfolio-react/static/js/main.1cc592ed.js",
+    "main.js": "/portfolio-react/static/js/main.fc2ebae9.js",
     "static/media/board.png": "/portfolio-react/static/media/board.eecb567502c8dc1cebac.png",
+    "static/media/flowcontrol.PNG": "/portfolio-react/static/media/flowcontrol.98f4439e5fc01c853ce9.PNG",
+    "static/media/app.PNG": "/portfolio-react/static/media/app.216ad08f399439056e6b.PNG",
     "static/media/HeroImage.jpg": "/portfolio-react/static/media/HeroImage.10652e9c0a405bd9866d.jpg",
     "static/media/CryptoTrackerScreenshot.PNG": "/portfolio-react/static/media/CryptoTrackerScreenshot.497bb3eddf62c984d4ff.PNG",
+    "static/media/proxy.PNG": "/portfolio-react/static/media/proxy.3f5ada657d9f7ec84088.PNG",
+    "static/media/dashboard.PNG": "/portfolio-react/static/media/dashboard.c78aa3bb515798183bcb.PNG",
     "static/media/WeatherAppLanding.PNG": "/portfolio-react/static/media/WeatherAppLanding.d7af752583f488a668d2.PNG",
     "static/media/trinity.jpg": "/portfolio-react/static/media/trinity.9a52213ebc31b617701a.jpg",
     "static/media/unity3d.png": "/portfolio-react/static/media/unity3d.06d61642377accc8b595.png",
     "static/media/postman.svg": "/portfolio-react/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
     "index.html": "/portfolio-react/index.html",
     "main.a1ef0baa.css.map": "/portfolio-react/static/css/main.a1ef0baa.css.map",
-    "main.1cc592ed.js.map": "/portfolio-react/static/js/main.1cc592ed.js.map"
+    "main.fc2ebae9.js.map": "/portfolio-react/static/js/main.fc2ebae9.js.map"
   },
   "entrypoints": [
     "static/css/main.a1ef0baa.css",
-    "static/js/main.1cc592ed.js"
+    "static/js/main.fc2ebae9.js"
   ]
 }
