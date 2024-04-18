@@ -32,6 +32,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>Web Apps</ToggleButton>
           }
+          <Divider/>
+          {toggle === 'networking' ?
+            <ToggleButton active value="networking" onClick={() => setToggle('networking')}>Networks</ToggleButton>
+            :
+            <ToggleButton value="networking" onClick={() => setToggle('networking')}>Networks</ToggleButton>
+          }
         </ToggleButtonGroup>
 
         <CardContainer>

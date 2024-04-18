@@ -6,6 +6,12 @@ import microsoft from '../images/microsoft.png'
 import git from '../images/git.png'
 import unity from '../images/unity3d.png'
 import postma from '../images/postman.svg'
+import rhk from '../images/rhk.jpeg'
+import citi from '../images/citi.jpeg'
+import llmsum from '../images/app.PNG'
+import flowcontrol from '../images/flowcontrol.PNG'
+import proxys from '../images/proxy.PNG'
+import cryptosocial from '../images/dashboard.PNG'
 export const Bio = {
     name: "Luke Sullivan",
     roles: [
@@ -195,12 +201,31 @@ export const Bio = {
   
   export const experiences = [
     {
+      id: 4,
+      img: citi,
+      role: "Code Owner (Project)",
+      company: "Citi",
+      date: "Jan 2024 - May 2024",
+      desc: "Code Owner of a team that developed a web application that utilises Large Language Models to allow users to generate summaries of extensive company financial and ESG reports. Responsible for reviewing both backend and frontend features, creating unit tests, and implementing a robust CI/CD pipeline.",
+      skills: [
+        "Docker",
+        "CI/CD",
+        "MongoDB",
+        "Python",
+        "Langchain",
+        "HuggingFace",
+        "React",
+        "Javascript",
+        "OpenAI"
+      ],
+    },
+    {
       id: 0,
       img: microsoft,
       role: "Software Engineer (Project)",
       company: "Microsoft",
       date: "Jan 2023 - May 2023",
-      desc: "Developed a Mixed Reality Chess Video Game for the Microsoft Hololens 2, under the guidance of a mentor from Microsoft Ireland",
+      desc: "Developed a Mixed Reality Chess Video Game for the Microsoft Hololens 2, under the guidance of a mentor from Microsoft Ireland. Responsible for implementing core game mechanics such as board generation, piece movement and checkmate recognition.",
       skills: [
         "Unity 3D",
         "C#",
@@ -211,22 +236,49 @@ export const Bio = {
       ],
     },
     {
+      id: 2,
+      img: trinity,
+      role: "Demonstrator",
+      company: "TCD Computer Science and Statistics",
+      date: "Sep 2023 - Present",
+      desc: "Lab Demonstrator for CSU22011 - Algorithms and Data Structures I and CSU11012 - Introduction to Programming II",
+      skills: [
+        "Communication",
+        "Leadership",
+        "Algorithms",
+        "Technical Demonstrations",
+        "Data Structures",
+        "Java",
+        "JUnit"
+
+      ],
+    },
+    {
       id: 1,
-      img: "data:image/jpeg;base64,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",
-      role: "Bartender (Part-time)",
+      img: rhk,
+      role: "Bartender",
       company: "Arcadia Dublin",
-      date: "Sep 2021 - Aug 2023",
-      desc: "I worked part-time as a bartender in a busy cocktail bar in Dublin throughout my first two years of college",
+      date: "Sep 2021 - May 2024",
+      desc: "I worked part-time as a bartender in a busy cocktail bar in Dublin throughout my first three years of college",
     },
   ];
   
   export const education = [
     {
+      id: 1,
+      img: trinity,     
+      school: "Trinity College Dublin",
+      date: "Sep 2025 - May 2026",
+      grade: "TBD",
+      desc: "I will undertake a Master's degree in Computer Science at Trinity College Dublin, on completion of my Bachelor's degree",
+      degree: "M.Sc in Computer Science",
+    },
+    {
       id: 0,
       img: trinity,     
       school: "Trinity College Dublin",
       date: "Sep 2021 - May 2025",
-      grade: "Honors",
+      grade: "First Class Honours (Projected)",
       desc: "I am currently pursuing a Bachelor's degree in Computer Science at Trinity College Dublin.",
       degree: "BA (Moderatorship) in Computer Science",
     },
@@ -288,5 +340,80 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/sulliv-luke/WeatherApp",
       website: "https://group17-weatherapp.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "LLM Report Summarisation Application",
+      date: "April 2024",
+      description: "A web application that utilises the Large Language Models to summarise company ESG and financial reports",
+      image: llmsum,
+      tags: [
+        "Docker",
+        "CI/CD",
+        "MongoDB",
+        "Python",
+        "Langchain",
+        "HuggingFace",
+        "React",
+        "Javascript",
+        "OpenAI"
+      ],
+      category: "web app",
+      github: "https://github.com/sweng-group-29/group-29-project",
+      website: "https://group29.sprinty.tech/llm.html"
+    },
+    {
+      id: 4,
+      title: "UDP Reactive Routing Mechanism",
+      date: "April 2024",
+      description: "A UDP-based protocol for dynamically discovering routes to propogate UDP packets towards intended destinations.",
+      image: flowcontrol,
+      tags: [
+        "Python",
+        "Docker",
+        "UDP",
+        "Wireshark",
+        "Networking"
+      ],
+      category: "networking",
+      github: "https://github.com/sulliv-luke/Flow-Forwarding",
+      website: "https://github.com/sulliv-luke/Flow-Forwarding"
+    },
+    {
+      id: 4,
+      title: "HTTP/HTTPS Proxy Server",
+      date: "February 2024",
+      description: "A simple, lightweight proxy server that handles HTTP and HTTPS requests. Implements caching of responses, and blocking of domains through a user management terminal.",
+      image: proxys,
+      tags: [
+        "Python",
+        "Networking",
+        "Wireshark",
+        "HTTP/HTTPS"
+      ],
+      category: "networking",
+      github: "https://github.com/sulliv-luke/ProxyServer",
+      website: "https://github.com/sulliv-luke/ProxyServer"
+    },
+    {
+      id: 4,
+      title: "Cryptographic Social Media Application",
+      date: "March 2024",
+      description: "A simple social media application allowing users to exchange encrypted messages with their own 'Secure Groups'. Only users in the same secure group can decrypt each other's messages.",
+      image: cryptosocial,
+      tags: [
+        "Python",
+        "Firebase",
+        "Streamlit",
+        "Networking",
+        "Cryptography",
+        "RSA",
+        "Fernet",
+        "Asymmetric Key Encryption",
+        "Symmetric Key Encryption"
+      ],
+      category: "networking",
+      github: "https://github.com/sulliv-luke/SocialMediaEncryption",
+      website: "https://github.com/sulliv-luke/SocialMediaEncryption"
     },
   ];
